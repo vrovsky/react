@@ -13,7 +13,7 @@ const MultipleReturns = () => {
   useEffect(() => {
     fetch(url)
       .then((resp) => {
-        if (resp.status >= 200 && resp.status <= 299) {
+        if (resp.status >= 200 && resp.status <= 298) {
           return resp.json();
         } else {
           setIsLoading(false);
