@@ -4,11 +4,7 @@ const MultipleReturns = () => {
   const [isloading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(false);
   const [user, setUser] = useState("default user");
-  // const getUser = async () =>{
-  //   const response = await fetch(url);
-  //   const user = await.response.json;
-  //   return(user);
-  // }
+  э;
 
   useEffect(() => {
     fetch(url)
