@@ -11,7 +11,8 @@ class Counter extends Component {
   };
 
   renderTags() {
-    if (this.state.tags.length === 0) return <h1>Надо горцевать еще братан</h1>;
+    if (this.state.tags.length === 0)
+      return <h1>Надо горцевать еще а то пизда</h1>;
 
     return (
       <ul>
